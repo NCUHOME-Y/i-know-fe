@@ -1,0 +1,110 @@
+.submitQ{
+  position: absolute;
+  top:6.3rem;
+  left:36rem;
+  box-sizing: border-box;
+  width:3.5rem;
+  height:3.5rem;
+  border-radius: 1.75rem;
+  text-align: center;
+  border: none;
+  background-color: #71bbfd;
+  color:white;
+  font-size: x-large;
+} 
+
+.backround03{
+  box-sizing: border-box;
+  height: 100%;
+  width:100%;
+}
+
+.headerHome{
+  box-sizing: border-box;
+  position:absolute;
+  width:100%;
+  height:14.5rem;
+  top:-2rem;
+  border-bottom: white 0.2rem solid;
+}
+
+.searchPush{
+  box-sizing: border-box;
+  position: absolute;
+  width: 29rem;
+  height: 4rem;
+  left: 6.5rem;
+  top:6rem;
+  background: #FFFDFD;
+  border:0.1rem solid #E7E7E7;
+  box-shadow: 0rem 0.2rem 0.2rem #D6E5F3;
+  padding:2rem;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  padding:2rem;
+}
+
+.li_both{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.a_both {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.guideLine00 {
+  position:absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+  height:4rem;
+  width:100%;
+  justify-content:space-around;
+  align-items:flex-start;
+  top:10.7rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btnSignBoth{
+  display: flex;
+  border:none;
+  height:0.5rem;
+  width:3.5rem;
+}
+
+.bottomGuider00{
+  box-sizing: border-box;
+  width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top:65rem;
+  justify-content: space-around;
+  border-top: white 0.2rem solid;
+}
+
+.allLink{
+  box-sizing: border-box;
+  text-decoration: none;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+img{
+  display:inline-block;
+  box-sizing:border-box;
+}
+

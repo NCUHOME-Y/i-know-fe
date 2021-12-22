@@ -1,0 +1,58 @@
+.main{
+  flex-grow: 1;
+  /* background-color:tomato; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image:linear-gradient(to bottom right, #d7f1ff, #d7e1ff);
+}
+
+.hots_box{
+  box-sizing: border-box;
+  height:16rem;
+  border-bottom:gray solid 0.1rem;
+}
+
+.hots_img{
+  position:relative;
+  top:1rem;
+  left: 1rem;
+  width:4.6rem;
+  height:4.6rem;
+  border-radius:4.6rem;
+}
+
+.hots_username{
+  position:relative;
+  left: 1.5rem;
+  top:-2rem;
+  color:gray;
+  font-size: 1.6rem;
+}
+
+.hots_text{
+  box-sizing: border-box;
+  width:75%;
+  height:40%;
+  position:relative;
+  font-size: 2.2rem;
+  top:0rem;
+  left:6rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.reactions{
+  position: relative;
+  top:1.1rem;
+  left:5.9rem;
+  color:gray;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  height: 2.1rem;
+}
+
+.pot{
+  font-size: 2rem;
+}

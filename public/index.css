@@ -1,0 +1,12 @@
+html{
+  /* background-color:white; */
+  /* background-image:linear-gradient(to bottom right, #d7f1ff, #d7e1ff); */
+}
+
+html,body{
+  font-size: 62.5%;
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}

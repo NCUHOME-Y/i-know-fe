@@ -83,7 +83,7 @@ li{
 }
 
 .footer{  
-  /* border-top:rgb(245, 241, 241) solid 5px; */
+  border-top:rgb(245, 241, 241) solid 5px;
   background-image:linear-gradient(to bottom right, #d7f1ff, #d7e1ff);
   height:7rem;
   margin:0;

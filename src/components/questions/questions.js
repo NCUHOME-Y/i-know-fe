@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import "./questions.css"
-import img from './OIP-C.png';
+import img from '../../assets/images/OIP-C.png';
 import { Link } from 'react-router-dom';
-import img0 from "./images/0.png";
-import img1 from "./images/1.png";
-import img2 from "./images/2.png";
-import img3 from "./images/3.png";
+import img0 from "../../assets/images/0.png";
+import img1 from "../../assets/images/1.png";
+import img2 from "../../assets/images/2.png";
+import img3 from "../../assets/images/3.png";
 
 
 

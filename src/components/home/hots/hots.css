@@ -6,6 +6,11 @@
   background-image:linear-gradient(to bottom right, #d7f1ff, #d7e1ff);
 }
 
+.to_comments_section{
+  text-decoration: none;
+  color:#000;
+}
+
 .hots_box{
   box-sizing: border-box;
   height:16rem;

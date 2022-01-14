@@ -1,4 +1,4 @@
-.h1_register{
+/* .h1_register{
   display: block;
   box-sizing: border-box;
   position: absolute;
@@ -79,4 +79,55 @@
   color:black;
   padding:0.8rem;
 }
+ */
 
+ .register_bk{
+  box-sizing: border-box;
+  width:100%;
+  height:100%;
+  padding:3rem;
+  display: flex;
+  flex-direction: column;
+  background-image:linear-gradient(to bottom right, #d7f1ff, hsl(225, 100%, 92%));
+}
+
+.register_header{
+  font-size: 3.6rem;
+}
+
+.register_layout{
+  display:flex;
+  box-sizing: border-box;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding:6rem;
+}
+
+.register_input_layout{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.register_input{
+  border: none;
+  box-sizing: border-box;
+  background-color: #F2F3F7;
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-right:3rem;
+  width: 25rem;
+  height: 4.9rem;
+  left:1rem;
+  border-radius: 3rem;
+  text-align: center;
+}
+
+.register_next{
+  width: 7rem;
+  height: 7rem;
+}

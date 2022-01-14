@@ -10,3 +10,17 @@ html,body{
   margin:0;
   padding:0;
 }
+
+.App {
+  box-sizing:border-box;
+  height: 100%;
+  width:100%;
+}
+
+input:hover{
+  text-align: left;
+}
+
+input:hover::placeholder{
+  background-color: rgba(0,0,0,0);
+}

@@ -43,21 +43,6 @@
   box-sizing: border-box;
 }
 
-.login_input{
-  border: none;
-  box-sizing: border-box;
-  background-color: #F2F3F7;
-  box-sizing: border-box;
-  font-size: 2rem;
-  padding-left: 3rem;
-  padding-right:3rem;
-  width: 25rem;
-  height: 4.9rem;
-  left:1rem;
-  border-radius: 3rem;
-  text-align: center;
-}
-
 .login_skip_to{
   box-sizing: border-box;
   width:25rem;
@@ -88,20 +73,4 @@
   height: 3.6rem;
   font-size: 1.5rem;
   text-align: center;
-}
-
-.login_btn{
-  border:none;
-  box-sizing: border-box;
-  width: 15.5rem;
-  height: 4.5rem;
-  text-align: center;
-  background: #90ADFF;
-  text-decoration: none;
-  padding:0.7rem;
-  font-size: 2rem;
-  font-weight: bold;
-  color:black;
-  border-radius:2.25rem;
-  justify-self: flex-end;
 }

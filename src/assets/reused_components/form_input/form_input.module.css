@@ -1,0 +1,22 @@
+.input_0{
+  border: none;
+  box-sizing: border-box;
+  background-color: #F2F3F7;
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-right:3rem;
+  width: 25rem;
+  height: 4.9rem;
+  left:1rem;
+  border-radius: 3rem;
+  text-align: center;
+  box-shadow:0 0.1rem 0.1rem rgba(0,0,0,.075);
+}
+
+.input_0:hover{
+  text-align: left;  
+  -webkit-box-shadow: inset 0 0.1rem 0.1rem rgba(0,0,0,.075),0 0 0.8rem rgba(102,175,233,.6);
+  box-shadow: inset 0 0.1rem 0.1rem rgba(0,0,0,.075),0 0 0.8rem rgba(102,175,233,.6);
+  outline:none;
+}

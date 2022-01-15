@@ -1,6 +1,6 @@
 import "./newpassword.css";
 import { useNavigate } from "react-router-dom";
-import FormButton from "../../../assets/reused_components/form_submit_button";
+import FormButton from "../../../assets/reused_components/form_submit_button/form_submit_button";
 
 export default function Newpassword() {
 
@@ -20,7 +20,7 @@ export default function Newpassword() {
           <br/><br/>
           <input placeholder="确认密码" className="newpassword_confirm"></input>
         </div>
-        <FormButton bindFunc={handleReset} text={"确定"}/>
+        <FormButton bindFunc={handleReset} value={"确定"}/>
       </div>
     </div>
   )

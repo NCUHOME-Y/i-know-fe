@@ -1,7 +1,7 @@
-html{
+/* html{
   /* background-color:white; */
   /* background-image:linear-gradient(to bottom right, #d7f1ff, #d7e1ff); */
-}
+/* } */
 
 html,body{
   font-size: 62.5%;
@@ -17,10 +17,6 @@ html,body{
   width:100%;
 }
 
-input:hover{
-  text-align: left;
-}
-
-input:hover::placeholder{
+/* input:hover::placeholder{
   background-color: rgba(0,0,0,0);
-}
+}  */

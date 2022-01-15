@@ -10,14 +10,14 @@ export default function FormButton(props){
       color: '#000',
       height: '4.5rem',
       width:'15.5rem',
-      boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .3)',
+      boxShadow: '0.1rem 0.1rem 0.2rem rgba(0, 0, 0, .3)',
       fontSize:'2rem',
       fontWeight: 'bold',
       borderRadius:'2.25rem',
       boxSizing: 'border-box',
-      '&:hover': {
+      '&:hover':{
         background: 'rgb(144,173,255)',
-      },
+      }
     },
     label: {
       textTransform: 'capitalize',
@@ -25,6 +25,6 @@ export default function FormButton(props){
   })(Button);
 
   return(
-    <FormButton onClick={props.bindFunc}>{props.text}</FormButton>
+    <FormButton onClick={props.bindFunc}>{props.value}</FormButton>
   )
 }

@@ -3,7 +3,8 @@ import React, { useState } from "react"
 import { useNavigate, Link } from "react-router-dom";
 import img from "../../assets/images/iknow.png";
 import "./login.css";
-import FormButton from "../../assets/reused_components/form_submit_button";
+import FormButton from "../../assets/reused_components/form_submit_button/form_submit_button";
+import FormInput from "../../assets/reused_components/form_input/form_input";
 
 export default function Login() {
 
@@ -16,7 +17,7 @@ export default function Login() {
     setId(e.target.value);
   }
 
-  let handlePassword = function (e, event) {
+  let handlePassword = function (e) {
     setPassword(e.target.value);
   }
 
@@ -49,20 +50,9 @@ export default function Login() {
         </div>
         <div style={{ height: "10%" }}></div>
         <div className="login_input_container">
-          <input
-            placeholder="ID"
-            onChange={handleId}
-            value={id}
-            className="login_input login_input_id"
-          />
+          <FormInput type={"text"} placeholder={"ID"} bindFunc={handleId} value={id}/>
           <br />
-          <input
-            type="password"
-            placeholder="输入密码"
-            onChange={handlePassword}
-            value={password}
-            className="login_input login_input_password"
-          />
+          <FormInput type={"password"} placeholder={"输入密码"} bindFunc={handlePassword} value={password}/>
         </div>
         <div className="login_skip_to">
           <Link to="/forget" className="switchForget login_switch"
@@ -71,7 +61,7 @@ export default function Login() {
           >用户注册</Link>
         </div>
         <div style={{ height: "10%" }}></div>
-        <FormButton bindFunc={handleCilck} text={"登录"}/>
+        <FormButton bindFunc={handleCilck} value={"登录"}/>
       </div >
     </div>
   )

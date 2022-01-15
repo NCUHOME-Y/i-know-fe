@@ -2,33 +2,10 @@ import axios from 'axios';
 import { useState } from 'react';
 import "./forget.css"
 import { useNavigate } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import FormButton from '../../assets/reused_components/form_submit_button';
-import { withStyles } from '@material-ui/core/styles';
+import FormButton from '../../assets/reused_components/form_submit_button/form_submit_button';
+import FormInput from '../../assets/reused_components/form_input/form_input';
 
 export default function Forget() {
-
-  // const FormButton = withStyles({
-  //   root: {
-  //     background: 'rgb(144,173,255)',
-  //     borderRadius: 3,
-  //     border: 0,
-  //     color: '#000',
-  //     height: '4.5rem',
-  //     width:'15.5rem',
-  //     boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .3)',
-  //     fontSize:'2rem',
-  //     fontWeight: 'bold',
-  //     borderRadius:'2.25rem',
-  //     boxSizing: 'border-box',
-  //     '&:hover': {
-  //       background: 'rgb(144,173,255)',
-  //     },
-  //   },
-  //   label: {
-  //     textTransform: 'capitalize',
-  //   },
-  // })(Button);
 
   const skip = useNavigate();
 
@@ -42,13 +19,13 @@ export default function Forget() {
       username: bindedMail.username,
       email: bindedMail.email
     }
-    if (e.target.className == "forget_id") {
+    if (e.target.id == "forget_id") {
       setbindedMail({
         username: e.target.value,
         email: temp.email
       })
     }
-    if (e.target.className == "forget_input") {
+    if (e.target.id == "forget_input") {
       setbindedMail({
         username: temp.username,
         email: e.target.value
@@ -64,26 +41,25 @@ export default function Forget() {
   }
 
   return (
-    <div class='forget_bk'>
+    <div className='forget_bk'>
       <h1 className='forget_header'>找回密码</h1>
       <div className='forget_layout'>
         <div>
-          <input
+          <FormInput
             placeholder='请输入用户名'
-            className="forget_id"
             value={bindedMail.username}
-            onChange={handleInput}
+            bindFunc={handleInput}
+            id={"forget_id"}
           />
           <br /><br />
-          <input
+          <FormInput
             placeholder='请输入绑定的邮箱'
-            className='forget_input'
             value={bindedMail.email}
-            onChange={handleInput}
+            bindFunc={handleInput}
+            id={"forget_input"}
           />
         </div>
-        {/* <FormButton>提交</FormButton> */}
-        <FormButton text={"提交"} bindFunc={handleFind}/>
+        <FormButton value={"提交"} bindFunc={handleFind} />
       </div>
     </div>
   )

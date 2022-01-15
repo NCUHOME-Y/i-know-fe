@@ -1,86 +1,3 @@
-/* .h1_register{
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  font-size: 3.6rem;
-  width: 18rem;
-  height: 4.2rem;
-  left: 3.7rem;
-  top: 3.6rem;
-  font-size: 3.6rem;
-}
-
-.input_register {
-  position: absolute;
-  border: none;
-  box-sizing: border-box;
-  width: 25rem;
-  height: 4.9rem;
-  background-color: #F2F3F7;
-  border-radius: 3rem;
-  box-sizing: border-box;
-  outline: none;
-  left:7.5rem;
-  font-size: 2rem;
-  padding-left: 3rem;
-  padding-right:3rem;
-  left:7.5rem;
-}
-
-.input_username{
-  top: 17.3rem;
-}
-
-.input_id{
-}
-
-.input_password{
-}
-
-.input_confirm{
-}
-
-.input_mail{
-}
-
-.sign_1 {
-  color:red;
-  position:absolute;
-  top:52.2rem;
-  left:8rem;
-}
-
-.sign_0 {
-  color:red;
-  position:absolute;
-  top:44.3rem;
-  left:8rem;
-}
-
-.registerSign{
-  position: absolute;
-  top:63rem;
-  left:13rem;
-}
-
-.button_register{
-  text-align: center;
-  position: absolute;
-  box-sizing: border-box;
-  width: 15.5rem;
-  height: 4.5rem;
-  left: 12.5rem;
-  top: 58.2rem;
-  background: #90ADFF;
-  border-radius: 3rem;
-  border:none;
-  font-size:2rem;
-  text-decoration: none;
-  color:black;
-  padding:0.8rem;
-}
- */
-
  .register_bk{
   box-sizing: border-box;
   width:100%;
@@ -110,21 +27,6 @@
   display: flex;
   flex-direction: column;
 
-}
-
-.register_input{
-  border: none;
-  box-sizing: border-box;
-  background-color: #F2F3F7;
-  box-sizing: border-box;
-  font-size: 2rem;
-  padding-left: 3rem;
-  padding-right:3rem;
-  width: 25rem;
-  height: 4.9rem;
-  left:1rem;
-  border-radius: 3rem;
-  text-align: center;
 }
 
 .register_next{
